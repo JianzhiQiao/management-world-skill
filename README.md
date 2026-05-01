@@ -1,2 +1,15 @@
-# management-world-skill
-A Codex Skill for reviewing and restructuring Chinese CSSCI management manuscripts using distilled Management World-style review rubrics.
+# 《管理世界》风格 CSSCI 管理学论文审稿与重构 Skill
+
+本 Skill 包用于对用户论文进行审稿式诊断和重构建议。它基于本地 2024-2026 年《管理世界》PDF 语料的自动抽取、自动分类、自动补全和置信度分层结果，但不包含 PDF 原文。
+
+## 使用边界
+
+官方栏目自动识别率为 0，因此本 Skill 不依赖官方栏目分类。高置信度字段可用于结构化初审，中置信度字段用于修改建议，低置信度字段只作为风险提示。
+
+## 如何使用
+
+将论文材料放入 `manuscript_input`，运行 `python scripts\evaluate_manuscript.py`。建议至少提供摘要、引言、文献综述、理论机制、研究设计、数据来源、变量说明、模型设定、实证结果、稳健性检验、机制检验、异质性分析、结论与政策建议。
+
+## 版权与诚信
+
+不得复刻、拼接或仿写任何论文原文。不得把机器推断写成官方标准。该 Skill 不能替代《管理世界》编辑部或匿名审稿人的判断。
