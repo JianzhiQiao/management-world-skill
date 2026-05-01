@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Raw corpus and copyrighted/full-text materials
+corpus/
+extracted/
+analysis_outputs/
+manuscript_input/
+
+# Original or extracted source materials
+*.pdf
+*.caj
+*.txt
+*.docx
+
+# Python/cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
