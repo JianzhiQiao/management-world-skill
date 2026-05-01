@@ -145,6 +145,7 @@ C. 可优化表达。
 
 需要细化规则时读取：
 
+- `resources/management_world_style_map.md`
 - `resources/article_archetypes.md`
 - `resources/empirical_logic_patterns.md`
 - `resources/theory_mechanism_patterns.md`
